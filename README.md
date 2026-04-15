@@ -1,47 +1,34 @@
 # Katherine Solano
 
-**Data Analytics Professional | Healthcare Systems Researcher | Public Sector Innovation**
+**MBA Marketing, Pepperdine University | MS Data Analytics, NYU (in progress)**
 
-*MBA Marketing, Pepperdine University | MS Data Analytics, NYU (In Progress)*
+Healthcare data analyst with expertise in large-scale dataset analysis, risk assessment modeling, and healthcare systems evaluation. Proven track record analyzing 100,000+ records to identify access gaps, cost inefficiencies, and operational improvements in public health systems.
 
-## About Me
+## Healthcare Analytics Projects
 
-I leverage data analytics to solve complex challenges in healthcare access, public administration, and institutional decision-making. My work focuses on translating large datasets into actionable insights that improve outcomes for underserved populations and optimize resource allocation in public sector environments.
+**[healthcare-access-risk-analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)**  
+Developed risk scoring methodology for 3,200+ US counties using uninsured population data and hospital density metrics. Built interactive choropleth map with Folium to visualize county-level healthcare vulnerability for resource planning.
 
-Currently pursuing my MS in Data Analytics at NYU while seeking analyst opportunities with NYC government agencies, public hospitals, and academic institutions where I can apply quantitative methods to drive evidence-based policy and operational improvements.
+**[medicare-billing-analysis](https://github.com/ksolano220/medicare-billing-analysis)**  
+SQL-based analysis of 145,000 CMS Medicare records across 3,000+ hospitals. Identified billing anomalies with cost markups exceeding 400% above national averages and documented systematic rural-urban healthcare delivery gaps affecting patient access.
 
-## Healthcare Analytics & Public Sector Projects
+**[ed-wait-time-dashboard](https://github.com/ksolano220/ed-wait-time-dashboard)**  
+Built comprehensive Streamlit dashboard analyzing emergency department wait times across 4,000+ hospitals with state-level performance comparisons. Enables operational benchmarking for hospital administrators and policy makers.
 
-### 🏥 [Healthcare Access Risk Analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)
-Comprehensive risk assessment of 3,200+ US counties using uninsured population rates and hospital density metrics. Features interactive choropleth visualization to identify healthcare deserts and inform resource allocation decisions.
+**[clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends)**  
+Analyzed 10,000 clinical trials from ClinicalTrials.gov database. Mapped sponsor patterns, phase completion rates, and geographic distribution of research activity across the US.
 
-### 💰 [Medicare Billing Analysis](https://github.com/ksolano220/medicare-billing-analysis)
-SQL-based analysis of 145,000 CMS Medicare records across 3,000+ hospitals. Identified cost outliers, pricing markup patterns, and rural-urban healthcare disparities to support policy research and budget planning.
+## Systems Design & Process Automation
 
-### ⚕️ [Emergency Department Wait Time Dashboard](https://github.com/ksolano220/ed-wait-time-dashboard)
-Streamlit dashboard analyzing ED wait times across 4,000+ hospitals. Enables performance benchmarking and capacity planning for hospital administrators and public health officials.
+**[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**  
+Designed multi-agent workflow system using IBM watsonx.ai for government benefit processing. Streamlined claim review processes and reduced manual intervention requirements for public assistance programs.
 
-### 🔬 [Clinical Trial Trends Analysis](https://github.com/ksolano220/clinical-trial-trends)
-Exploratory data analysis of 10,000 clinical trials from ClinicalTrials.gov, revealing patterns in research focus areas, geographic distribution, and timeline trends to inform research investment strategies.
+**[cortex](https://github.com/ksolano220/cortex)**  
+Developed dual-review governance system for automated decision-making processes. Implemented quality control mechanisms and self-correction protocols for operational reliability in public sector applications.
 
-## Systems Design & Process Innovation
-
-### 🤖 [Autonomous Claims Workflow](https://github.com/ksolano220/autonomous-claims-workflow)
-Multi-agent system leveraging IBM watsonx.ai to streamline government workflow processes. Designed to reduce processing times and improve consistency in public sector administrative tasks.
-
-### 🛡️ [Sentra - AI Governance Framework](https://github.com/ksolano220/sentra)
-Runtime control system for AI applications with policy enforcement and risk scoring capabilities. Built for organizations requiring compliance oversight and behavioral monitoring in automated systems.
-
-### 🔄 [Cortex - Dual-Model Governance SDK](https://github.com/ksolano220/cortex)
-Self-healing AI governance system where two models provide mutual oversight. Includes plan execution framework and mobile dashboard for real-time monitoring of automated processes.
-
-## Core Competencies
-
-**Analytics & Research:** SQL, Python, Statistical Modeling, Healthcare Metrics, Policy Research
-**Visualization:** Streamlit, Interactive Dashboards, Geospatial Mapping, Data Storytelling  
-**Systems Thinking:** Workflow Optimization, Process Design, Risk Assessment, Compliance Frameworks
-**Domain Expertise:** Healthcare Economics, Public Administration, Medicare/Medicaid Systems
+**[sentra](https://github.com/ksolano220/sentra)**  
+Created policy enforcement framework for automated systems. Designed risk assessment protocols and behavioral monitoring for process compliance and safety in government operations.
 
 ---
 
-*Passionate about using data to strengthen public institutions and improve healthcare accessibility. Open to opportunities where analytical rigor meets social impact.*
+Seeking analyst roles with NYC government agencies, public hospitals, and academic institutions.
