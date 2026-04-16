@@ -23,7 +23,7 @@ Analyzed 10,000 clinical trials from ClinicalTrials.gov database. Mapped sponsor
 **[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**  
 Designed multi-agent workflow system using IBM watsonx.ai for government benefit processing. Streamlined claim review processes and reduced manual intervention requirements for public assistance programs.
 
-**[cortex](https://github.com/ksolano220/cortex)**  
+**[cortex](https://github.com/ksolano220/cortex-2c)**  
 Developed dual-review governance system for automated decision-making processes. Implemented quality control mechanisms and self-correction protocols for operational reliability in public sector applications.
 
 **[sentra](https://github.com/ksolano220/sentra)**  
