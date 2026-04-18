@@ -29,6 +29,3 @@ Runtime policy enforcement framework for automated systems. Risk scoring, behavi
 **[cortex-2c](https://github.com/ksolano220/cortex-2c)**  
 Dual-model governance system where two AI models review each other's work. Self-healing agents, plan execution, and real-time monitoring dashboard. Built on Sentra.
 
----
-
-Seeking analyst roles with NYC government agencies, public hospitals, and academic institutions.
