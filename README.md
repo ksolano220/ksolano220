@@ -27,5 +27,5 @@ Designed multi-agent workflow system using IBM watsonx.ai for government benefit
 Runtime policy enforcement framework for automated systems. Risk scoring, behavioral monitoring, and compliance controls for government operations.
 
 **[cortex-2c](https://github.com/ksolano220/cortex-2c)**  
-Dual-model governance system where two AI models review each other's work. Self-healing agents, plan execution, and real-time monitoring dashboard. Built on Sentra.
+Dual-model governance system where two AI models review each other's work. Self-healing agents, plan execution, and real-time monitoring dashboard. 
 
