@@ -31,7 +31,7 @@ SQL analysis of 145,000 CMS Medicare records across 3,000+ hospitals. Surfaced b
 **[ed-wait-time-dashboard](https://github.com/ksolano220/ed-wait-time-dashboard)** · [live demo](https://ksolano220-ed-wait-times.streamlit.app/)
 Streamlit dashboard benchmarking emergency department wait times across 4,000+ US hospitals with state-level comparisons.
 
-**[healthcare-access-risk-analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)**
+**[healthcare-access-risk-analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)** · [live map](https://ksolano220.github.io/healthcare-access-risk-analysis/)
 County-level risk scoring for 3,200+ US counties using uninsured population data and hospital density. Interactive Folium choropleth for resource planning.
 
 **[clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends)**
