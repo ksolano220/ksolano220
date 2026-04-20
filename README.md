@@ -14,8 +14,11 @@ Data analyst and product builder. I work across healthcare data, operational ana
 
 ### Applied AI
 
+**[symptom-triage-coach](https://github.com/ksolano220/symptom-triage-coach)** · [live demo](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
+LoRA fine-tune of Qwen2.5-1.5B that converts a patient's plain-language symptom into a structured pre-visit prep response (body systems, possible causes, red flags, expected doctor questions). Schema-validated synthetic training data generated via GPT-4o-mini teacher. Full pipeline from data generation through deployment.
+
 **[plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)** · [live demo](https://huggingface.co/spaces/ksolano220/plain-english-medicine)
-LoRA fine-tune of Qwen2.5 that rewrites clinical and biomedical text in plain English. End-to-end pipeline: data prep, training, evaluation, and a live Gradio demo, all running on free-tier infrastructure.
+Earlier LoRA experiment on Cochrane Plain Language Summaries. Documented how task/data mismatch caused the fine-tune to hallucinate medical statistics, which informed the design of the symptom-triage-coach project above.
 
 **[sentra](https://github.com/ksolano220/sentra)**
 Runtime policy enforcement framework for autonomous AI agents. Intercepts proposed actions, scores risk, and enforces allow / block / shutdown decisions before execution.
