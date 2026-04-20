@@ -59,7 +59,7 @@ Multi-agent public-benefits workflow on IBM watsonx.ai + Granite, built as a sol
 
 ## Activity
 
-![Katherine's GitHub stats](https://github-readme-stats.vercel.app/api?username=ksolano220&show_icons=true&count_private=true&hide_border=true)
+![Katherine's GitHub stats](https://github-readme-stats.vercel.app/api?username=ksolano220&show_icons=true&count_private=true&hide_border=true&hide_rank=true&hide=stars,prs,issues,contribs)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ksolano220&layout=compact&hide_border=true&langs_count=8)
 
 ## Contact
