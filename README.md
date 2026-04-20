@@ -23,7 +23,7 @@ LoRA fine-tune of Qwen2.5-1.5B that turns a patient's plain-language symptom int
 **[symptom-triage-coach](https://github.com/ksolano220/symptom-triage-coach)** · [live demo](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
 LoRA fine-tune of Qwen2.5-1.5B that converts a plain-language symptom into a structured pre-visit prep response: body systems, ranked possible causes, red flags, questions to prepare for. Schema-valid JSON output eliminates the hallucinated medical statistics that were the failure mode of an earlier Cochrane-based iteration ([plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)). Full pipeline from synthetic data generation (GPT-4o-mini teacher) through QLoRA training on a T4 to a live Gradio Space.
 
-**[sentra](https://github.com/ksolano220/sentra)** · [live dashboard](https://ksolano220-sentra.streamlit.app)
+**[sentra](https://github.com/ksolano220/sentra)** · [live dashboard](https://ksolano220-sentra-dashboardapp-ulucnb.streamlit.app)
 Runtime execution control layer for autonomous AI agents. Intercepts proposed actions, scores cumulative risk, and enforces allow, block, or shutdown decisions before execution. Model-agnostic: no LLM SDK dependencies. [autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow) is the IBM watsonx.ai proof-of-concept that integrates Sentra at the tool-execution boundary.
 
 **[cortex-2c](https://github.com/ksolano220/cortex-2c)**
