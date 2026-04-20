@@ -14,11 +14,10 @@ Data analyst and product builder. I work across healthcare data, operational ana
 
 ### Applied AI
 
-**[symptom-triage-coach](https://github.com/ksolano220/symptom-triage-coach)** · [live demo](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
-LoRA fine-tune of Qwen2.5-1.5B that converts a patient's plain-language symptom into a structured pre-visit prep response (body systems, possible causes, red flags, expected doctor questions). Schema-validated synthetic training data generated via GPT-4o-mini teacher. Full pipeline from data generation through deployment.
+**[symptom-triage-coach](https://github.com/ksolano220/symptom-triage-coach)**
+**Live demo:** [huggingface.co/spaces/ksolano220/symptom-triage-coach](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
 
-**[plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)** · [live demo](https://huggingface.co/spaces/ksolano220/plain-english-medicine)
-Earlier LoRA experiment on Cochrane Plain Language Summaries. Documented how task/data mismatch caused the fine-tune to hallucinate medical statistics, which informed the design of the symptom-triage-coach project above.
+LoRA fine-tune of Qwen2.5-1.5B that turns a patient's plain-language symptom into a structured pre-visit prep response: body systems to consider, ranked possible causes, red flags, and questions the doctor will likely ask. Every output is schema-valid JSON, which eliminates the hallucinated medical statistics that were the failure mode of the earlier Cochrane-based iteration ([plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)). Full pipeline from synthetic data generation (GPT-4o-mini as teacher) through QLoRA training on a T4 to a live Gradio Space.
 
 **[sentra](https://github.com/ksolano220/sentra)**
 Runtime policy enforcement framework for autonomous AI agents. Intercepts proposed actions, scores risk, and enforces allow / block / shutdown decisions before execution.
