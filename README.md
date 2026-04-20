@@ -14,7 +14,7 @@ Data analyst and product builder. I work across healthcare data, operational ana
 
 ### Applied AI
 
-**[plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)**
+**[plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)** · [live demo](https://huggingface.co/spaces/ksolano220/plain-english-medicine)
 LoRA fine-tune of Qwen2.5 that rewrites clinical and biomedical text in plain English. End-to-end pipeline: data prep, training, evaluation, and a live Gradio demo, all running on free-tier infrastructure.
 
 **[sentra](https://github.com/ksolano220/sentra)**
