@@ -24,7 +24,10 @@ LoRA fine-tune of Qwen2.5-1.5B that turns a patient's plain-language symptom int
 LoRA fine-tune of Qwen2.5-1.5B that converts a plain-language symptom into a structured pre-visit prep response: body systems, ranked possible causes, red flags, questions to prepare for. Schema-valid JSON output eliminates the hallucinated medical statistics that were the failure mode of an earlier Cochrane-based iteration ([plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)). Full pipeline from synthetic data generation (GPT-4o-mini teacher) through QLoRA training on a T4 to a live Gradio Space.
 
 **[sentra](https://github.com/ksolano220/sentra)** · [live dashboard](https://ksolano220-sentra-dashboardapp-ulucnb.streamlit.app)
-Runtime execution control layer for autonomous AI agents. Intercepts proposed actions, scores cumulative risk, and enforces allow, block, or shutdown decisions before execution. Model-agnostic: no LLM SDK dependencies. [autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow) is the IBM watsonx.ai proof-of-concept that integrates Sentra at the tool-execution boundary.
+Runtime execution control layer for autonomous AI agents. Intercepts proposed actions, scores cumulative risk, and enforces allow, block, or shutdown decisions before execution. Model-agnostic: no LLM SDK dependencies.
+
+**[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**
+The proof-of-concept that validated Sentra. A multi-agent public-benefits workflow built on IBM watsonx.ai + Granite for the IBM SkillsBuild AI Experiential Learning Lab (2026), completed as a solo submission. The claims agents intentionally propose unsafe actions (approving payouts without verification, exfiltrating data). Sentra sits at the tool-execution boundary and blocks them before they run. Together, the two repos demonstrate the runtime-governance pattern end-to-end.
 
 **[cortex-2c](https://github.com/ksolano220/cortex-2c)**
 Dual-model governance system where two AI models review each other's work. Worker writes, overseer stress-tests, debate runs until output passes your rules. Self-healing agents respawn with memory after repeated failures. Includes an opt-in executor that applies approved worker output to a workspace with path-traversal and denylist safety rails.
@@ -42,11 +45,6 @@ County-level risk scoring for 3,200+ US counties using uninsured population data
 
 **[clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends)**
 Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phase completion rates, and geographic distribution.
-
-### Systems & Automation
-
-**[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**
-Multi-agent public-benefits workflow on IBM watsonx.ai + Granite, built as a solo submission to the IBM SkillsBuild AI Experiential Learning Lab. Intentionally designed to produce unsafe action proposals so that [Sentra](https://github.com/ksolano220/sentra) can intercept them.
 
 ## Skills
 
