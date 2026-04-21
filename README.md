@@ -16,6 +16,10 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 
 LoRA fine-tune of Qwen2.5-1.5B that turns a patient's plain-language symptom into a structured pre-visit prep response. [Try the live demo.](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
 
+[![Cortex dual-model governance dashboard](https://raw.githubusercontent.com/ksolano220/cortex/main/docs/dashboard.png)](https://ksolano-cortex.streamlit.app/)
+
+Dual-model governance system where two AI models review each other's work, with a self-healing agent that respawns after repeated failures. [Try the live dashboard.](https://ksolano-cortex.streamlit.app/)
+
 ## Projects
 
 ### Applied AI
