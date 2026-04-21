@@ -26,7 +26,7 @@ LoRA fine-tune of Qwen2.5-1.5B that converts a plain-language symptom into a str
 **[sentra](https://github.com/ksolano220/sentra)** · [live dashboard](https://ksolano220-sentra-dashboardapp-ulucnb.streamlit.app)
 Runtime execution control layer for autonomous AI agents. Intercepts proposed actions, scores cumulative risk, and enforces allow, block, or shutdown decisions before execution. Model-agnostic: no LLM SDK dependencies.
 
-**[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**
+**[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)** · [live demo](https://ksolano-claims.streamlit.app/)
 The proof-of-concept that validated Sentra. A multi-agent public-benefits workflow built on IBM watsonx.ai + Granite for the IBM SkillsBuild AI Experiential Learning Lab (2026), completed as a solo submission. The claims agents intentionally propose unsafe actions (approving payouts without verification, exfiltrating data). Sentra sits at the tool-execution boundary and blocks them before they run. Together, the two repos demonstrate the runtime-governance pattern end-to-end.
 
 **[cortex](https://github.com/ksolano220/cortex)** · [live dashboard](https://ksolano-cortex.streamlit.app/)
