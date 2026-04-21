@@ -12,13 +12,24 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 
 ## Featured work
 
-[![Symptom Triage Coach LoRA fine-tune output](https://raw.githubusercontent.com/ksolano220/symptom-triage-coach/main/outputs/demo.png)](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
-
-LoRA fine-tune of Qwen2.5-1.5B that turns a patient's plain-language symptom into a structured pre-visit prep response. [Try the live demo.](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
-
-[![Cortex dual-model governance dashboard](https://raw.githubusercontent.com/ksolano220/cortex/main/docs/dashboard.png)](https://ksolano-cortex.streamlit.app/)
-
-Dual-model governance system where two AI models review each other's work, with a self-healing agent that respawns after repeated failures. [Try the live dashboard.](https://ksolano-cortex.streamlit.app/)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">
+<img src="https://raw.githubusercontent.com/ksolano220/symptom-triage-coach/main/outputs/demo.png" width="100%" alt="Symptom Triage Coach LoRA fine-tune output"/>
+</a>
+<p><strong>symptom-triage-coach</strong><br/>
+LoRA fine-tune of Qwen2.5-1.5B that turns a plain-language symptom into a structured pre-visit prep response. <a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">Live demo</a>.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://ksolano-cortex.streamlit.app/">
+<img src="https://raw.githubusercontent.com/ksolano220/cortex/main/docs/dashboard.png" width="100%" alt="Cortex dual-model governance dashboard"/>
+</a>
+<p><strong>cortex</strong><br/>
+Dual-model governance system where two AI models review each other's work, with self-healing agents that respawn after repeated failures. <a href="https://ksolano-cortex.streamlit.app/">Live dashboard</a>.</p>
+</td>
+</tr>
+</table>
 
 ## Projects
 
