@@ -6,7 +6,7 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 
 ## Currently
 
-- **Open to full-time roles in Applied AI / ML engineering or data analytics**, New York-based or remote. Healthcare tech is a specialty, not a requirement.
+- **Open to full-time roles in Applied AI / ML engineering or data analytics**, New York-based or remote. Focused on healthcare tech, with applied-AI work that ports to other domains.
 - Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine). Picks the patients a pop-health team should reach out to first to close care gaps, then drafts the outreach with Claude. For HEDIS and value-based care teams.
 - Founder of [Zona](https://www.getzona.app), a real-time nightlife decision app for iOS.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)** as a solo submission. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
@@ -68,6 +68,7 @@ Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phas
 ## Skills
 
 - **Data:** SQL, Python (pandas, NumPy), data modeling, ETL
+- **Healthcare:** HIPAA-aware data handling, HEDIS / USPSTF rule logic, CMS and claims data, value-based care, FHIR / EHR concepts
 - **Analysis:** exploratory analysis, cohort analysis, A/B testing, risk scoring
 - **Visualization:** Streamlit, Plotly, matplotlib, Folium, Tableau
 - **Applied AI:** LoRA / QLoRA fine-tuning, Hugging Face Transformers, PyTorch, multi-agent systems, IBM watsonx.ai / Granite
