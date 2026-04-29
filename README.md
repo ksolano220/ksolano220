@@ -16,18 +16,18 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://care-gap-engine.streamlit.app">
+<img src="https://raw.githubusercontent.com/ksolano220/care-gap-engine/main/docs/dashboard.png" width="100%" alt="Care Gap Outreach Engine — prioritized queue with score breakdown, filters, and equity context"/>
+</a>
+<p><strong>care-gap-engine</strong><br/>
+Population health outreach prioritization for primary care teams on value-based care contracts. Ranks open care gaps by clinical urgency × response likelihood × equity priority, then drafts personalized outreach with Claude. <a href="https://care-gap-engine.streamlit.app">Live demo</a>.</p>
+</td>
+<td width="50%" valign="top">
 <a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">
 <img src="https://raw.githubusercontent.com/ksolano220/symptom-triage-coach/main/outputs/demo.png" width="100%" alt="Symptom Triage Coach LoRA fine-tune output"/>
 </a>
 <p><strong>symptom-triage-coach</strong><br/>
 LoRA fine-tune of Qwen2.5-1.5B that turns a plain-language symptom into a structured pre-visit prep response. <a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">Live demo</a>.</p>
-</td>
-<td width="50%" valign="top">
-<a href="https://ksolano-cortex.streamlit.app/">
-<img src="https://raw.githubusercontent.com/ksolano220/cortex/main/docs/dashboard.png" width="100%" alt="Cortex dual-model governance dashboard"/>
-</a>
-<p><strong>cortex</strong><br/>
-Dual-model governance system where two AI models review each other's work, with self-healing agents that respawn after repeated failures. <a href="https://ksolano-cortex.streamlit.app/">Live dashboard</a>.</p>
 </td>
 </tr>
 </table>
