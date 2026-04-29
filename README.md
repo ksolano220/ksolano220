@@ -2,11 +2,10 @@
 
 **MBA Marketing, Pepperdine University | MS Data Analytics, NYU (in progress)**
 
-Data Analyst focused on product performance and decision systems.
+Data Analyst with product and decision systems experience | NYC or remote
 
 ## Currently
 
-- **Open to full-time roles in Applied AI / ML engineering or data analytics**, New York-based or remote. Focused on healthcare tech, with applied-AI work that ports to other domains.
 - Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine). Finds patients overdue for screenings, ranks who to contact first, and drafts the outreach with Claude. For clinics on HEDIS or value-based care contracts.
 - Founder of [Zona](https://www.getzona.app), a real-time nightlife decision app for iOS.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)** as a solo submission. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
