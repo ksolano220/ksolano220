@@ -7,7 +7,7 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 ## Currently
 
 - **Open to full-time roles in Applied AI / ML engineering or data analytics**, New York-based or remote. Healthcare tech is a specialty, not a requirement.
-- Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine) — a population health prioritization tool that ranks open care gaps and drafts personalized outreach with Claude. Designed for value-based care and HEDIS pop-health teams.
+- Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine). Picks the patients a pop-health team should reach out to first to close care gaps, then drafts the outreach with Claude. For HEDIS and value-based care teams.
 - Founder of [Zona](https://www.getzona.app), a real-time nightlife decision app for iOS.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)** as a solo submission. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
 
@@ -17,7 +17,7 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 <tr>
 <td width="50%" valign="top">
 <a href="https://care-gap-engine.streamlit.app">
-<img src="https://raw.githubusercontent.com/ksolano220/care-gap-engine/main/docs/dashboard.png" width="100%" alt="Care Gap Outreach Engine — prioritized queue with score breakdown, filters, and equity context"/>
+<img src="https://raw.githubusercontent.com/ksolano220/care-gap-engine/main/docs/dashboard.png" width="100%" alt="Care Gap Outreach Engine: prioritized queue with score breakdown, filters, and equity context"/>
 </a>
 <p><strong>care-gap-engine</strong><br/>
 Population health outreach prioritization for primary care teams on value-based care contracts. Ranks open care gaps by clinical urgency × response likelihood × equity priority, then drafts personalized outreach with Claude. <a href="https://care-gap-engine.streamlit.app">Live demo</a>.</p>
@@ -50,8 +50,8 @@ Dual-model governance system where two AI models review each other's work. Worke
 
 ### Healthcare Analytics
 
-**[care-gap-engine](https://github.com/ksolano220/care-gap-engine)**
-End-to-end population health tool for primary care teams on value-based care contracts. Detects open care gaps against simplified USPSTF / HEDIS rules over a synthetic 1,000-patient panel (CDC / BRFSS-grounded prevalence) and ranks them with a 3-component priority score: clinical urgency × response likelihood × equity priority. Drafts personalized outreach per high-priority patient using Claude — multilingual, literacy-calibrated, barrier-aware. Streamlit dashboard with prioritized queue, equity-breakdown comparison (top-100 mix vs full panel mix), and an inline methodology card.
+**[care-gap-engine](https://github.com/ksolano220/care-gap-engine)** · [live demo](https://care-gap-engine.streamlit.app)
+Detects open care gaps over a 1,000-patient synthetic panel using USPSTF and HEDIS rules, then ranks them by clinical urgency, likelihood-to-respond, and equity priority. Drafts personalized outreach per top-priority patient with Claude. Streamlit dashboard with prioritized queue, equity breakdown, and methodology card.
 
 **[medicare-billing-analysis](https://github.com/ksolano220/medicare-billing-analysis)**
 SQL analysis of 145,000 CMS Medicare records across 3,000+ hospitals. Surfaced billing markups exceeding 400% of national averages and quantified rural vs urban care delivery gaps.
