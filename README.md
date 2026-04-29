@@ -2,7 +2,7 @@
 
 **MBA Marketing, Pepperdine University | MS Data Analytics, NYU (in progress)**
 
-Data analyst and product builder. I ship applied-AI work with a bias toward projects that answer the "so what" question and deliver something someone can actually use.
+Data Analyst focused on product performance and decision systems.
 
 ## Currently
 
