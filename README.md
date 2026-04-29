@@ -62,8 +62,8 @@ Streamlit dashboard benchmarking emergency department wait times across 4,000+ U
 **[healthcare-access-risk-analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)** · [live map](https://ksolano220.github.io/healthcare-access-risk-analysis/)
 County-level risk scoring for 3,200+ US counties using uninsured population data and hospital density. Interactive Folium choropleth for resource planning.
 
-**[clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends)**
-Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phase completion rates, and geographic distribution.
+**[clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends)** · [live demo](https://clinical-trial-trends.streamlit.app)
+Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phase completion rates, and geographic distribution. Interactive Streamlit dashboard with filters by phase, sponsor type, year, and condition keyword.
 
 ## Skills
 
