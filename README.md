@@ -7,6 +7,7 @@ Data analyst and product builder. I ship applied-AI work with a bias toward proj
 ## Currently
 
 - **Open to full-time roles in Applied AI / ML engineering or data analytics**, New York-based or remote. Healthcare tech is a specialty, not a requirement.
+- Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine) — a population health prioritization tool that ranks open care gaps and drafts personalized outreach with Claude. Designed for value-based care and HEDIS pop-health teams.
 - Founder of [Zona](https://www.getzona.app), a real-time nightlife decision app for iOS.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)** as a solo submission. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
 
@@ -48,6 +49,9 @@ The proof-of-concept that validated Sentra. A multi-agent public-benefits workfl
 Dual-model governance system where two AI models review each other's work. Worker writes, overseer stress-tests, debate runs until output passes your rules. Self-healing agents respawn with memory after repeated failures. Includes an opt-in executor that applies approved worker output to a workspace with path-traversal and denylist safety rails.
 
 ### Healthcare Analytics
+
+**[care-gap-engine](https://github.com/ksolano220/care-gap-engine)**
+End-to-end population health tool for primary care teams on value-based care contracts. Detects open care gaps against simplified USPSTF / HEDIS rules over a synthetic 1,000-patient panel (CDC / BRFSS-grounded prevalence) and ranks them with a 3-component priority score: clinical urgency × response likelihood × equity priority. Drafts personalized outreach per high-priority patient using Claude — multilingual, literacy-calibrated, barrier-aware. Streamlit dashboard with prioritized queue, equity-breakdown comparison (top-100 mix vs full panel mix), and an inline methodology card.
 
 **[medicare-billing-analysis](https://github.com/ksolano220/medicare-billing-analysis)**
 SQL analysis of 145,000 CMS Medicare records across 3,000+ hospitals. Surfaced billing markups exceeding 400% of national averages and quantified rural vs urban care delivery gaps.
