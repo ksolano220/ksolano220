@@ -6,6 +6,7 @@ Data Analyst with product and decision systems experience | NYC or remote
 
 ## Currently
 
+- Shipped [**Symptom Triage Coach v2**](https://github.com/ksolano220/symptom-triage-coach-v2). Multi-modal extension of the v1 LoRA fine-tune: image of the affected area plus a plain-language symptom in, image-grounded triage JSON out. Side-by-side eval comparing image+text vs text-only. [Live demo](https://symptom-triage-coach-v2.streamlit.app/).
 - Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine). Finds patients overdue for screenings, ranks who to contact first, and drafts the outreach with Claude. For clinics on HEDIS or value-based care contracts.
 - Founder of [ZØNA](https://www.getzona.app), a real-time decision platform that analyzes user behavior and demand to drive nightlife discovery. Leading product, design, and engineering across iOS and Android consumer apps, venue CRM, ads marketplace, and promoter portal. 100K+ downloads, paying venue partners, live since June 2024.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)**. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
@@ -34,6 +35,9 @@ LoRA fine-tune of Qwen2.5-1.5B that turns a plain-language symptom into a struct
 ## Projects
 
 ### Applied AI
+
+**[symptom-triage-coach-v2](https://github.com/ksolano220/symptom-triage-coach-v2)** · [live demo](https://symptom-triage-coach-v2.streamlit.app/)
+Multi-modal extension of the v1 fine-tune. Takes an image of the affected area plus a plain-language symptom description and returns a structured triage JSON with image-grounded visual findings, ranked possible causes, red flags, and pre-visit questions. Built on Claude Sonnet 4.6's vision API with jsonschema-validated output. Side-by-side eval harness compares image+text vs text-only output across consistent, vague-text, and text-image-conflict cases.
 
 **[symptom-triage-coach](https://github.com/ksolano220/symptom-triage-coach)** · [live demo](https://huggingface.co/spaces/ksolano220/symptom-triage-coach)
 LoRA fine-tune of Qwen2.5-1.5B that converts a plain-language symptom into a structured pre-visit prep response: body systems, ranked possible causes, red flags, questions to prepare for. Schema-valid JSON output eliminates the hallucinated medical statistics that were the failure mode of an earlier Cochrane-based iteration ([plain-english-medicine](https://github.com/ksolano220/plain-english-medicine)). Full pipeline from synthetic data generation (GPT-4o-mini teacher) through QLoRA training on a T4 to a live Gradio Space.
