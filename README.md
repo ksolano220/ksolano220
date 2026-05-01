@@ -78,11 +78,6 @@ Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phas
 - **Backend:** Node.js, Express, MongoDB, Firebase, FastAPI
 - **Product:** iOS, React Native, user research, design systems
 
-## Activity
-
-![Katherine's GitHub stats](https://github-readme-stats.vercel.app/api?username=ksolano220&show_icons=true&count_private=true&hide_border=true&hide_rank=true&hide=stars,prs,issues,contribs)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ksolano220&layout=compact&hide_border=true&langs_count=8)
-
 ## Contact
 
 - Email: [solanokatherine220@gmail.com](mailto:solanokatherine220@gmail.com)
