@@ -23,11 +23,11 @@ Data Analyst with product and decision systems experience | NYC or remote
 Population health outreach prioritization for primary care teams on value-based care contracts. Ranks open care gaps by clinical urgency × response likelihood × equity priority, then drafts personalized outreach with Claude. <a href="https://care-gap-engine.streamlit.app">Live demo</a>.</p>
 </td>
 <td width="50%" valign="top">
-<a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">
-<img src="https://raw.githubusercontent.com/ksolano220/symptom-triage-coach/main/outputs/demo.png" width="100%" alt="Symptom Triage Coach LoRA fine-tune output"/>
+<a href="https://symptom-triage-coach-v2.streamlit.app/">
+<img src="https://raw.githubusercontent.com/ksolano220/symptom-triage-coach-v2/main/docs/demo.png" width="100%" alt="Symptom Triage Coach v2: image-grounded triage output with visual findings, body systems, possible causes, red flags, and follow-up questions"/>
 </a>
-<p><strong>symptom-triage-coach</strong><br/>
-LoRA fine-tune of Qwen2.5-1.5B that turns a plain-language symptom into a structured pre-visit prep response. <a href="https://huggingface.co/spaces/ksolano220/symptom-triage-coach">Live demo</a>.</p>
+<p><strong>symptom-triage-coach-v2</strong><br/>
+Multi-modal pre-visit triage. Image of the affected area plus a plain-language symptom in, schema-valid triage JSON out with image-grounded visual findings. <a href="https://symptom-triage-coach-v2.streamlit.app/">Live demo</a>.</p>
 </td>
 </tr>
 </table>
