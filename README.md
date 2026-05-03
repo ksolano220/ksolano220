@@ -80,6 +80,5 @@ Exploratory analysis of 10,000 ClinicalTrials.gov trials. Sponsor patterns, phas
 
 ## Contact
 
-- Email: [solanokatherine220@gmail.com](mailto:solanokatherine220@gmail.com)
 - LinkedIn: [linkedin.com/in/katherinesolano](https://www.linkedin.com/in/katherinesolano)
 - New York, NY
