@@ -2,13 +2,13 @@
 
 **MBA Marketing, Pepperdine University | MS Data Analytics, NYU (in progress)**
 
-Data Analyst with product and decision systems experience | NYC or remote
+Healthcare analytics, operational systems, and applied AI focused on workflow reliability, clinical decision support, and high-stakes environments.
 
 ## Currently
 
 - Shipped [**Symptom Triage Coach v2**](https://github.com/ksolano220/symptom-triage-coach-v2). Multi-modal extension of the v1 LoRA fine-tune: image of the affected area plus a plain-language symptom in, image-grounded triage JSON out. Side-by-side eval comparing image+text vs text-only. [Live demo](https://symptom-triage-coach-v2.streamlit.app/).
 - Just shipped [**Care Gap Outreach Engine**](https://github.com/ksolano220/care-gap-engine). Finds patients overdue for screenings, ranks who to contact first, and drafts the outreach with Claude. For clinics on HEDIS or value-based care contracts.
-- Founder of [ZØNA](https://www.getzona.app), a real-time decision platform that analyzes user behavior and demand to drive nightlife discovery. Leading product, design, and engineering across iOS and Android consumer apps, venue CRM, ads marketplace, and promoter portal. 100K+ downloads, paying venue partners, live since June 2024.
+- Founder of [ZØNA](https://www.getzona.app), real-time decision platform that analyzes user behavior and demand to drive nightlife discovery. Leading product, design, and engineering across iOS and Android consumer apps, venue CRM, ads marketplace, and promoter portal. 100K+ downloads, paying venue partners, live since June 2024.
 - Completed the **IBM SkillsBuild AI Experiential Learning Lab (2026)**. Built a multi-agent public-benefits workflow on IBM watsonx.ai + Granite, paired with a runtime execution control layer ([Sentra](https://github.com/ksolano220/sentra)) I built independently to govern it.
 
 ## Featured work
