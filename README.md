@@ -14,13 +14,14 @@ I build consumer products and the partner and revenue systems underneath them, a
 ## Selected work
 
 **Product & growth**
-- **[ZONA](https://www.getzona.app)** — consumer nightlife marketplace plus B2B partner platform (portal, ads, promoter, ticketing). Product, brand, monetization, and partner delivery end to end. More at [unknownbehavior.com](https://unknownbehavior.com).
+- **[ZONA](https://www.getzona.app)**. Consumer nightlife marketplace plus B2B partner platform (portal, ads, promoter, ticketing). Product, brand, monetization, and partner delivery end to end. More at [unknownbehavior.com](https://unknownbehavior.com).
 
 **Applied AI & systems**
-- **[sentra](https://github.com/ksolano220/sentra)** — runtime execution control for autonomous AI agents: scores risk, enforces allow/block/shutdown. Model-agnostic.
-- **[cortex](https://github.com/ksolano220/cortex)** — dual-model governance: a worker writes, an overseer stress-tests, agents respawn with memory after repeated failures.
-- **[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)** — multi-agent workflow on IBM watsonx.ai + Granite, governed end to end by Sentra (IBM SkillsBuild AI Lab, 2026).
-- **[symptom-triage-coach-v2](https://github.com/ksolano220/symptom-triage-coach-v2)** — multi-modal LLM build: image + text in, schema-validated output, with an eval harness.
+- **[sentra](https://github.com/ksolano220/sentra)**. Runtime execution control for autonomous AI agents: scores risk, enforces allow/block/shutdown. Model-agnostic.
+- **[sentra-medication](https://github.com/ksolano220/sentra-medication)**. The healthcare application of Sentra. Validates AI-generated medication orders against live patient data (FHIR R4) and returns allow/block/escalate in under 100ms, built to EU AI Act Article 12. Won the pitch competition judged by Google and Join Capital (NYU Berlin, team lead). [Live demo](https://ksolano220.github.io/sentra-medication/).
+- **[cortex](https://github.com/ksolano220/cortex)**. Dual-model governance: a worker writes, an overseer stress-tests, agents respawn with memory after repeated failures.
+- **[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**. Multi-agent workflow on IBM watsonx.ai + Granite, governed end to end by Sentra (IBM SkillsBuild AI Lab, 2026).
+- **[symptom-triage-coach-v2](https://github.com/ksolano220/symptom-triage-coach-v2)**. Multi-modal LLM build: image + text in, schema-validated output, with an eval harness.
 
 **Earlier data & analysis**
 
