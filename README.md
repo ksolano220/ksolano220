@@ -20,6 +20,7 @@ I build consumer products and the partner and revenue systems underneath them, a
 - **[sentra](https://github.com/ksolano220/sentra)**. Runtime execution control for autonomous AI agents: scores risk, enforces allow/block/shutdown. Model-agnostic.
 - **[sentra-medication](https://github.com/ksolano220/sentra-medication)**. Runtime governance for AI in medication: validates AI-generated orders against live patient data (FHIR R4) and returns allow/block/escalate in under 100ms, built to EU AI Act Article 12. An NYU Berlin team project I led; we presented to Google and Join Capital and won the final pitch before a faculty panel. [Live demo](https://ksolano220.github.io/sentra-medication/).
 - **[cortex](https://github.com/ksolano220/cortex)**. Dual-model governance: a worker writes, an overseer stress-tests, agents respawn with memory after repeated failures.
+- **[voice-coach](https://github.com/ksolano220/voice-coach)**. A real-time AI voice agent you talk to out loud: streaming speech-to-text → Claude → text-to-speech in one low-latency pipeline (Pipecat, Deepgram, Cartesia, Silero VAD), with live tool-use and a swappable personality.
 - **[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**. Multi-agent workflow on IBM watsonx.ai + Granite, governed end to end by Sentra (IBM SkillsBuild AI Lab, 2026).
 - **[symptom-triage-coach-v2](https://github.com/ksolano220/symptom-triage-coach-v2)**. Multi-modal LLM build: image + text in, schema-validated output, with an eval harness.
 
