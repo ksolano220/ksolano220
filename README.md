@@ -2,14 +2,14 @@
 
 **Founder · operator · applied-AI builder · MBA, Pepperdine**
 
-I build consumer products and the partner and revenue systems underneath them, and I build with AI, deploying applied-AI systems into real operations, end to end. Founder of ZONA. Based in Miami.
+Founder of ZONA. I enjoy building consumer products and architecting the revenue systems underneath them. Most recently, I've shipped applied AI products into real operations, in the US and abroad, to help businesses grow.
 
 🌐 [unknownbehavior.com](https://unknownbehavior.com) · 💼 [LinkedIn](https://linkedin.com/in/katherinesolano)
 
 ## Currently
 
 - Founder of **[ZONA](https://www.getzona.app)**, a real-time nightlife platform that turns user behavior and demand into where tonight is. I lead product, design, and engineering across iOS and Android, plus the venue portal, ads marketplace, promoter portal, ticketing, and lifecycle engine. 150K+ downloads, 25+ venue partners, live since June 2024.
-- Building with AI across the stack: a lifecycle decision engine with A/B-tested creative, plus standalone systems like [Sentra](https://github.com/ksolano220/sentra) (runtime control for AI agents) and [Cortex](https://github.com/ksolano220/cortex) (dual-model review).
+- Building with AI across the stack: a lifecycle decision engine with A/B-tested creative, plus standalone systems like [Sentra](https://github.com/ksolano220/sentra) (runtime control for AI agents), [Cortex](https://github.com/ksolano220/cortex) (dual-model review), and [voice-coach](https://github.com/ksolano220/voice-coach) (a real-time voice agent).
 
 ## Selected work
 
@@ -32,7 +32,7 @@ SQL and Python over public datasets: [medicare-billing-analysis](https://github.
 ## Skills
 
 - **Product & growth:** product strategy, partner platforms, marketplace systems, lifecycle/CRM, monetization & pricing, A/B testing
-- **Applied AI:** multi-agent systems, LoRA/QLoRA fine-tuning, Hugging Face, PyTorch, Claude, IBM watsonx.ai
-- **Engineering:** Node.js, Express, MongoDB, Firebase, FastAPI, React Native, REST APIs
+- **Applied AI:** multi-agent systems, real-time voice agents (Pipecat · Deepgram · Cartesia · Silero VAD), multi-modal & vision (Claude), tool-use / function-calling, LLM evals & eval harnesses, prompt caching, LoRA/QLoRA fine-tuning, Hugging Face, PyTorch, Claude API, IBM watsonx.ai
+- **Engineering:** Python, Node.js, Express, FastAPI, Streamlit, MongoDB, Firebase, React Native, REST APIs
 - **Data:** SQL, Python (pandas, NumPy), experimentation, dashboards
 - **Languages:** English / Spanish
