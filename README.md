@@ -1,8 +1,8 @@
 # Katherine Solano
 
-**Founder & consumer-growth operator · MBA, Pepperdine**
+**Founder · operator · applied-AI builder · MBA, Pepperdine**
 
-I build consumer products and the partner and revenue systems underneath them, and I build with AI. Founder of ZONA. Based in Miami.
+I build consumer products and the partner and revenue systems underneath them, and I build with AI, deploying applied-AI systems into real operations, end to end. Founder of ZONA. Based in Miami.
 
 🌐 [unknownbehavior.com](https://unknownbehavior.com) · 💼 [LinkedIn](https://linkedin.com/in/katherinesolano)
 
