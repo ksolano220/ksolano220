@@ -4,7 +4,7 @@
 
 Founder of ZONA. I enjoy building consumer products and architecting the revenue systems underneath them. Most recently, I've shipped applied AI products into real operations, in the US and abroad, to help businesses grow.
 
-🌐 [unknownbehavior.com](https://unknownbehavior.com) · 💼 [LinkedIn](https://linkedin.com/in/katherinesolano)
+🌐 [unknownbehavior.com](https://unknownbehavior.com) · 🌙 [getzona.app](https://getzona.app) · 💼 [LinkedIn](https://linkedin.com/in/katherinesolano)
 
 ## Currently
 
