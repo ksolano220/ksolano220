@@ -1,38 +1,51 @@
 # Katherine Solano
 
-**Founder · operator · applied-AI builder · MBA, Pepperdine**
+Marketplace operator · strategy & analytics · applied AI
 
-Founder of ZONA. I enjoy building consumer products and architecting the revenue systems underneath them. Most recently, I've shipped applied AI products into real operations, in the US and abroad, to help businesses grow.
+getzona.app · [LinkedIn](https://linkedin.com/in/katherinesolano)
 
-🌐 [unknownbehavior.com](https://unknownbehavior.com) · 🌙 [getzona.app](https://getzona.app) · 💼 [LinkedIn](https://linkedin.com/in/katherinesolano)
+I founded and operated ZONA, a two-sided consumer marketplace, owning pricing, venue partnerships, retention, and growth end to end. I work in SQL and Python to find what's actually happening in a business, then ship the fix -- a pricing change, an operating process, or, when it's the right tool, an AI system.
 
-## Currently
+## Marketplace Experience
 
-- Founder of **[ZONA](https://www.getzona.app)**, a real-time nightlife platform that turns user behavior and demand into where tonight is. I lead product, design, and engineering across iOS and Android, plus the venue portal, ads marketplace, promoter portal, ticketing, and lifecycle engine. 150K+ downloads, 25+ venue partners, live since June 2024.
-- Building with AI across the stack: a lifecycle decision engine with A/B-tested creative, plus standalone systems like [Sentra](https://github.com/ksolano220/sentra) (runtime control for AI agents), [Cortex](https://github.com/ksolano220/cortex) (dual-model review), and [voice-coach](https://github.com/ksolano220/voice-coach) (a real-time voice agent).
+**ZONA -- Founder & Marketplace Operator** · Oct 2023-Present
 
-## Selected work
+Two-sided consumer marketplace connecting nightlife venues (clubs & bars) and consumers. Founded and operated the business end to end across strategy, pricing, partnerships, growth, product, and operations.
 
-**Product & growth**
-- **[ZONA](https://www.getzona.app)**. Consumer nightlife marketplace plus B2B partner platform (portal, ads, promoter, ticketing). Product, brand, monetization, and partner delivery end to end. More at [unknownbehavior.com](https://unknownbehavior.com).
+- 150K+ downloads · ~35K MAU · 60+ venue partners · 25%+ week-4 retention
+- Designed the transaction/monetization model -- tiered pricing, deposits, commission -- plus a per-venue partner-ads product, facilitating ~$1M in transaction volume and $200K+ revenue
+- Cohort analysis surfaced a ~4% DAU retention rate as the real growth bottleneck, not acquisition -- reallocated the team around it, then shipped a rules-based decision engine for personalized push notifications that lifted DAU ~15%
+- Ran weekly venue-operator interviews to find reservation-workflow friction and turn it into next-sprint scope
+- Directed the AI voice concierge rollout (Twilio, Claude, Deepgram, Cartesia) automating guest call handling 24/7, live across three venue partners
 
-**Applied AI & systems**
-- **[sentra](https://github.com/ksolano220/sentra)**. Runtime execution control for autonomous AI agents: scores risk, enforces allow/block/shutdown. Model-agnostic.
-- **[sentra-medication](https://github.com/ksolano220/sentra-medication)**. Runtime governance for AI in medication: validates AI-generated orders against live patient data (FHIR R4) and returns allow/block/escalate in under 100ms, built to EU AI Act Article 12. An NYU Berlin team project I led; we presented to Google and Join Capital and won the final pitch before a faculty panel. [Live demo](https://ksolano220.github.io/sentra-medication/).
-- **[cortex](https://github.com/ksolano220/cortex)**. Dual-model governance: a worker writes, an overseer stress-tests, agents respawn with memory after repeated failures.
-- **[voice-coach](https://github.com/ksolano220/voice-coach)**. A real-time AI voice agent you talk to out loud: streaming speech-to-text → Claude → text-to-speech in one low-latency pipeline (Pipecat, Deepgram, Cartesia, Silero VAD), with live tool-use and a swappable personality.
-- **[care-gap-engine](https://github.com/ksolano220/care-gap-engine)**. Population-health outreach prioritization: ranks open care gaps by clinical urgency × response likelihood × equity, then drafts personalized patient outreach with Claude (prompt-cached), behind a public methodology card. [Live demo](https://care-gap-engine.streamlit.app).
-- **[autonomous-claims-workflow](https://github.com/ksolano220/autonomous-claims-workflow)**. Multi-agent workflow on IBM watsonx.ai + Granite, governed end to end by Sentra (IBM SkillsBuild AI Lab, 2026).
-- **[symptom-triage-coach-v2](https://github.com/ksolano220/symptom-triage-coach-v2)**. Multi-modal LLM build: image + text in, schema-validated output, with an eval harness.
+## Selected Work
 
-**Earlier data & analysis**
+**[Marketplace Pricing & Promotion Simulator](https://github.com/ksolano220/marketplace-pricing-promo-simulator)**
+A contribution-margin decision simulator built on 824K real transaction line items to stress-test take rate, fulfillment cost, promotional investment, and demand assumptions -- including a promo breakeven calculator and a lever sensitivity ranking, so the tool identifies which economic lever moves marketplace profitability the most, not just what happens when you move a slider. *Python, pandas, Streamlit, Plotly.*
 
-SQL and Python over public datasets: [medicare-billing-analysis](https://github.com/ksolano220/medicare-billing-analysis), [ed-wait-time-dashboard](https://github.com/ksolano220/ed-wait-time-dashboard), [healthcare-access-risk-analysis](https://github.com/ksolano220/healthcare-access-risk-analysis), [clinical-trial-trends](https://github.com/ksolano220/clinical-trial-trends).
+**[Sentra](https://github.com/ksolano220/sentra)**
+Autonomous AI agents can take real actions -- sending messages, approving records -- before anyone checks if they should. A runtime policy layer that scores every proposed agent action and blocks, allows, or escalates it before it executes, with cumulative risk tracking and a three-strike shutdown. Demonstrates: governance, risk-based decision rules, systems thinking. *Python.*
 
-## Skills
+**[Healthcare Access Risk Analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)**
+Where should limited access-to-care resources go first? A composite risk-scoring model across county-level population, insurance, and hospital-density inputs, ranking and mapping 3,200+ counties into priority tiers. Demonstrates: geographic prioritization, weighted decision modeling. *Python.*
 
-- **Product & growth:** product strategy, partner platforms, marketplace systems, lifecycle/CRM, monetization & pricing, A/B testing
-- **Applied AI:** multi-agent systems, real-time voice agents (Pipecat · Deepgram · Cartesia · Silero VAD), multi-modal & vision (Claude), tool-use / function-calling, LLM evals & eval harnesses, prompt caching, LoRA/QLoRA fine-tuning, Hugging Face, PyTorch, Claude API, IBM watsonx.ai
-- **Engineering:** Python, Node.js, Express, FastAPI, Streamlit, MongoDB, Firebase, React Native, REST APIs
-- **Data:** SQL, Python (pandas, NumPy), experimentation, dashboards
-- **Languages:** English / Spanish
+**[Medicare Billing Analysis](https://github.com/ksolano220/medicare-billing-analysis)**
+Hospital pricing for the same procedure can vary 3x+ by location. SQL analysis of CMS Medicare billing data (145K+ records, 3,000+ hospitals) to find cost outliers, markup patterns, and geographic pricing disparities. Demonstrates: SQL, pricing-variance analysis, geographic economics. *SQL.*
+
+[More projects →](https://github.com/ksolano220?tab=repositories)
+
+## How I Work
+
+Business problem → data → hypothesis → intervention → measurement → decision.
+
+I use code when it's the fastest way to test the hypothesis or operationalize the answer.
+
+## Tools
+
+**Analytics:** SQL · Python (pandas, NumPy) · Tableau · Mixpanel · PostHog
+**Product / Experimentation:** A/B testing · cohort & retention analysis · unit economics · Streamlit · Figma · Jira
+**Applied AI:** Claude API · Hugging Face / PyTorch (LoRA fine-tuning) · multi-agent systems · prompt caching & evals
+
+## Background
+
+Founder & operator, ZONA (2023-present). MBA, Pepperdine Graziadio Business School. M.S. Management and Analytics, NYU School of Professional Studies -- Candidate.
