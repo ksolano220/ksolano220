@@ -26,7 +26,7 @@ A contribution-margin decision simulator built on 824K real transaction line ite
 **[Sentra](https://github.com/ksolano220/sentra)** · [Live demo](https://sentra-demo.streamlit.app)
 Autonomous AI agents can take real actions (sending messages, approving records) before anyone checks if they should. A runtime policy layer that scores every proposed agent action and blocks, allows, or escalates it before it executes, with cumulative risk tracking and a three-strike shutdown. Demonstrates: governance, risk-based decision rules, systems thinking. *Python.*
 
-**[Sentra Medication](https://github.com/ksolano220/sentra-medication)**
+**[Sentra Medication](https://github.com/ksolano220/sentra-medication)** · [Live demo](https://sentra-medication.streamlit.app/)
 Independent runtime governance for AI-assisted medication management, adapted from Sentra. Intercepts every AI-generated medication order, validates it against live patient data via FHIR R4, and returns allow/block/escalate before the order reaches the pharmacy, with an EU AI Act Article-12-shaped audit log. NYU SPS Berlin GFI 2026 team project, presented to Google and Join Capital, won the final pitch. Demonstrates: healthcare AI governance, regulatory-grade auditability, team leadership. *Python.*
 
 **[Nonprofit Financial Health Dashboard](https://github.com/ksolano220/nonprofit-financial-health-dashboard)** · [Live app](https://nonprofit-financial-health-dashboard.streamlit.app)
