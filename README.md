@@ -26,8 +26,6 @@ A contribution-margin decision simulator built on 824K real transaction line ite
 **[Sentra](https://github.com/ksolano220/sentra)** · [Live demo](https://sentra-demo.streamlit.app)
 Autonomous AI agents can take real actions (sending messages, approving records) before anyone checks if they should. A runtime policy layer that scores every proposed agent action and blocks, allows, or escalates it before it executes, with cumulative risk tracking and a three-strike shutdown. Demonstrates: governance, risk-based decision rules, systems thinking. *Python.*
 
-https://github.com/ksolano220/ksolano220/raw/main/assets/sentra-governance-demo.mp4
-
 **[Nonprofit Financial Health Dashboard](https://github.com/ksolano220/nonprofit-financial-health-dashboard)** · [Live app](https://nonprofit-financial-health-dashboard.streamlit.app)
 Is this organization's financial position getting stronger or weaker, and where's the risk? Real IRS Form 990 filings for 20 nonprofits, EIN-verified against known values at fetch time, with illustrative (adjustable) screening thresholds and peer comparisons that suppress themselves when a sector's sample is too small to mean anything. Demonstrates: financial-statement analysis, risk screening, data-integrity discipline. *Python, pandas, Streamlit, Plotly.*
 
