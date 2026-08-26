@@ -6,7 +6,7 @@ getzona.app · [LinkedIn](https://linkedin.com/in/katherinesolano)
 
 I founded and operated ZONA, a two-sided consumer marketplace, owning pricing, venue partnerships, retention, and growth end to end. I work in SQL and Python to find what's actually happening in a business, then ship the fix: a pricing change, an operating process, or, when it's the right tool, an AI system.
 
-## Marketplace Experience
+## Experience
 
 **ZONA, Founder & Marketplace Operator** · Oct 2023-Present
 
@@ -18,6 +18,22 @@ Two-sided consumer marketplace connecting nightlife venues (clubs & bars) and co
 - Ran weekly venue-operator interviews to find reservation-workflow friction and turn it into next-sprint scope
 - Directed the AI voice concierge rollout (Twilio, Claude, Deepgram, Cartesia) automating guest call handling 24/7, live across three venue partners
 
+**Operations Analytics Consultant, Policlínico El Bosque** · Feb-May 2026 · Lima, Peru
+Redesigned patient intake and scheduling, cutting wait time 20→10 min and no-shows 20%→12%.
+
+**Data & Operations Consultant, SmartDealer Technologies (InDesign Data)** · Sep 2025-Jan 2026 · Miami, FL
+Scoped a reconciliation review across 500K+ transaction records in a multi-vendor integration, cutting mismatches 25% and manual reporting time 40%.
+
+**Applied AI & Academic Programs**
+
+**Product Manager, Team Lead, IBM SkillsBuild AI Experiential Learning Lab** · Feb-May 2026 · Remote
+Led a 4-person team building Sentra, an AI runtime governance layer for autonomous agents; shipped an MVP and demoed it to IBM at program close.
+
+**Product Manager, Team Lead, NYU Berlin Global Intensive** · Jun 2026 · Berlin, Germany
+Led the healthcare adaptation of Sentra (below); won the final pitch competition, presented to Google and Join Capital.
+
+[Full work history →](https://unknownbehavior.com/about#experience)
+
 ## Selected Work
 
 **[Marketplace Pricing & Promotion Simulator](https://github.com/ksolano220/marketplace-pricing-promo-simulator)** · [Live app](https://marketplace-pricing-promo-simulator.streamlit.app)
@@ -26,7 +42,7 @@ A contribution-margin decision simulator built on 824K real transaction line ite
 **[Sentra](https://github.com/ksolano220/sentra)** · [Live demo](https://sentra-demo.streamlit.app)
 Autonomous AI agents can take real actions (sending messages, approving records) before anyone checks if they should. A runtime policy layer that scores every proposed agent action and blocks, allows, or escalates it before it executes, with cumulative risk tracking and a three-strike shutdown. Demonstrates: governance, risk-based decision rules, systems thinking. *Python.*
 
-**[Sentra Medication](https://github.com/ksolano220/sentra-medication)** · [Live demo](https://sentra-medication.streamlit.app/)
+**[Sentra Medication](https://github.com/ksolano220/sentra-medication)** · [Live demo](https://ksolano220.github.io/sentra-medication/)
 Independent runtime governance for AI-assisted medication management, adapted from Sentra. Intercepts every AI-generated medication order, validates it against live patient data via FHIR R4, and returns allow/block/escalate before the order reaches the pharmacy, with an EU AI Act Article-12-shaped audit log. NYU SPS Berlin GFI 2026 team project, presented to Google and Join Capital, won the final pitch. Demonstrates: healthcare AI governance, regulatory-grade auditability, team leadership. *Python.*
 
 **[Nonprofit Financial Health Dashboard](https://github.com/ksolano220/nonprofit-financial-health-dashboard)** · [Live app](https://nonprofit-financial-health-dashboard.streamlit.app)
@@ -54,4 +70,4 @@ I use code when it's the fastest way to test the hypothesis or operationalize th
 
 ## Background
 
-Founder & operator, ZONA (2023-present). MBA, Pepperdine Graziadio Business School. M.S. Management and Analytics, NYU School of Professional Studies, Candidate.
+Founder & operator, ZONA (2023-present). MBA, Pepperdine Graziadio Business School. M.S. Management and Analytics, NYU School of Professional Studies (Jun 2026).
