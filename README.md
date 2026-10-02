@@ -1,45 +1,84 @@
 # Katherine Solano
 
-Marketplace operator · strategy & analytics · applied AI
+**Product builder · AI agents · decision systems**
 
-getzona.app · [LinkedIn](https://linkedin.com/in/katherinesolano)
+[getzona.app](https://getzona.app) · [LinkedIn](https://linkedin.com/in/katherinesolano)
 
-I founded and operated ZONA, a two-sided consumer marketplace, owning pricing, venue partnerships, retention, and growth end to end. I work in SQL and Python to find what's actually happening in a business, then ship the fix: a pricing change, an operating process, or, when it's the right tool, an AI system.
+I build products where software has to make or support real-world decisions. I'm the founder of ZONA, where I'm building nightlife infrastructure used by consumers, venues, and AI agents. My open-source work explores reliability and control in autonomous systems: Sentra decides whether an agent's action should be allowed to execute; Vigil independently verifies whether automated work actually produced the outcome it claimed.
 
 ## Selected Work
 
-**[Marketplace Pricing & Promotion Simulator](https://github.com/ksolano220/marketplace-pricing-promo-simulator)** · [Live app](https://marketplace-pricing-promo-simulator.streamlit.app)
-A contribution-margin decision simulator built on 824K real transaction line items to stress-test take rate, fulfillment cost, promotional investment, and demand assumptions, including a promo breakeven calculator and a lever sensitivity ranking, so the tool identifies which economic lever moves marketplace profitability the most, not just what happens when you move a slider. *Python, pandas, Streamlit, Plotly.*
+### ZONA
 
-**[Sentra](https://github.com/ksolano220/sentra)** · [Live demo](https://sentra-demo.streamlit.app)
-Autonomous AI agents can take real actions (sending messages, approving records) before anyone checks if they should. A runtime policy layer that scores every proposed agent action and blocks, allows, or escalates it before it executes, with cumulative risk tracking and a three-strike shutdown. Demonstrates: governance, risk-based decision rules, systems thinking. *Python.*
+My company. Consumer nightlife discovery, venue and event data, table inventory and booking infrastructure, an AI Concierge, and an MCP layer that lets AI agents query ZONA's live nightlife data and, in supported cases, initiate table requests.
 
-**[Sentra Medication](https://github.com/ksolano220/sentra-medication)** · [Live demo](https://ksolano220.github.io/sentra-medication/)
-Independent runtime governance for AI-assisted medication management, adapted from Sentra. Intercepts every AI-generated medication order, validates it against live patient data via FHIR R4, and returns allow/block/escalate before the order reaches the pharmacy, with an EU AI Act Article-12-shaped audit log. NYU SPS Berlin GFI 2026 team project, presented to Google and Join Capital, won the final pitch. Demonstrates: healthcare AI governance, regulatory-grade auditability, team leadership. *Python.*
+[getzona.app](https://getzona.app) · [AI infrastructure](https://getzona.app/ai)
 
-**[Nonprofit Financial Health Dashboard](https://github.com/ksolano220/nonprofit-financial-health-dashboard)** · [Live app](https://nonprofit-financial-health-dashboard.streamlit.app)
-Is this organization's financial position getting stronger or weaker, and where's the risk? Real IRS Form 990 filings for 20 nonprofits, EIN-verified against known values at fetch time, with illustrative (adjustable) screening thresholds and peer comparisons that suppress themselves when a sector's sample is too small to mean anything. Demonstrates: financial-statement analysis, risk screening, data-integrity discipline. *Python, pandas, Streamlit, Plotly.*
+### Vigil
 
-**[Healthcare Access Risk Analysis](https://github.com/ksolano220/healthcare-access-risk-analysis)** · [Live demo](https://ksolano220.github.io/healthcare-access-risk-analysis/)
-Where should limited access-to-care resources go first? A composite risk-scoring model across county-level population, insurance, and hospital-density inputs, ranking and mapping 3,200+ counties into priority tiers. Demonstrates: geographic prioritization, weighted decision modeling. *Python.*
+**A job reporting success is a claim, not proof.**
 
-**[Medicare Billing Analysis](https://github.com/ksolano220/medicare-billing-analysis)**
-Hospital pricing for the same procedure can vary 3x+ by location. SQL analysis of CMS Medicare billing data (145K+ records, 3,000+ hospitals) to find cost outliers, markup patterns, and geographic pricing disparities. Demonstrates: SQL, pricing-variance analysis, geographic economics. *SQL.*
+Vigil wraps scheduled automation and independently verifies that the intended outcome actually occurred rather than trusting the job's own exit code.
 
-[More applied-AI and healthcare analytics projects →](https://github.com/ksolano220?tab=repositories)
+- Separates what a job claims from independent evidence of the outcome
+- Detects missed execution windows and catches up runs that never happened
+- Detects degradation when a job remains alive but stops producing meaningful changes
+- Supports independent verification through files, HTTP state, commands, and metrics
+
+[github.com/ksolano220/vigil](https://github.com/ksolano220/vigil)
+
+### Sentra
+
+Sentra sits between an AI agent's decision and tool execution, evaluating proposed actions against deterministic policy before they are allowed to run.
+
+- Deterministic runtime policy enforcement with no model in the decision loop
+- Cumulative risk tracking per agent with three-strike shutdown
+- Fail-closed Python SDK
+- Structured audit events for evaluated actions
+- Model-agnostic execution boundary
+
+Started as an IBM SkillsBuild project. A healthcare adaptation, Sentra Medication, won the final pitch at NYU SPS's Berlin GFI.
+
+[github.com/ksolano220/sentra](https://github.com/ksolano220/sentra) · [Live demo](https://sentra-demo.streamlit.app)
+
+### Applied AI
+
+**[Autonomous Claims Workflow](https://github.com/ksolano220/autonomous-claims-workflow)** — Multi-agent IBM watsonx/Granite system with Sentra at the tool-execution boundary.
+
+**[Sentra Medication](https://github.com/ksolano220/sentra-medication)** — Healthcare adaptation of Sentra using FHIR-based patient context for medication-order governance.
+
+**[Symptom Triage Coach](https://github.com/ksolano220/symptom-triage-coach)** — LoRA fine-tune of Qwen2.5-1.5B converting plain-language symptoms into schema-validated structured output using synthetic training data.
+
+**[Symptom Triage Coach v2](https://github.com/ksolano220/symptom-triage-coach-v2)** — Multimodal image + text extension with an evaluation against the text-only baseline.
+
+### Decision Systems & Analytics
+
+**[Marketplace Pricing & Promotion Simulator](https://github.com/ksolano220/marketplace-pricing-promo-simulator)** — Contribution-margin decision simulator on 824K transaction line items, ranking which economic lever moves profitability most.
+
+**[Care Gap Engine](https://github.com/ksolano220/care-gap-engine)** — Ranks open care gaps by clinical urgency, response likelihood, and equity priority.
+
+[More analytics work →](https://github.com/ksolano220?tab=repositories)
+
+## Sentra and Vigil
+
+Sentra asks: **should this action be allowed to happen?**
+
+Vigil asks: **did the automated work actually happen?**
+
+One sits before execution. The other checks after. Neither treats self-reported success as sufficient evidence.
 
 ## How I Work
 
-Business problem → data → hypothesis → intervention → measurement → decision.
+**Business problem → data → hypothesis → intervention → measurement → decision.**
 
 I use code when it's the fastest way to test the hypothesis or operationalize the answer.
 
 ## Tools
 
-**Analytics:** SQL · Python (pandas, NumPy) · Tableau · Mixpanel · PostHog
-**Product / Experimentation:** A/B testing · cohort & retention analysis · unit economics · Streamlit · Figma · Jira
-**Applied AI:** Claude API · Hugging Face / PyTorch (LoRA fine-tuning) · multi-agent systems · prompt caching & evals
+Python · SQL · pandas · FastAPI · Streamlit · IBM watsonx · Hugging Face / PyTorch · LoRA fine-tuning · MCP · LLM evaluation · multi-agent systems
 
 ## Background
 
-Founder & operator, ZONA (2023-present). MBA, Pepperdine Graziadio Business School. M.S. Management and Analytics, NYU School of Professional Studies (Jun 2026).
+Founder, ZONA  
+MBA, Pepperdine Graziadio  
+M.S. Management & Analytics, NYU
